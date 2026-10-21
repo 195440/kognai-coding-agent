@@ -1,0 +1,14 @@
+{
+  "task": "Q3",
+  "endpoint": "https://195440.github.io/kognai-coding-agent/patch",
+  "request": {
+    "spec_md": "Q3: qualifier/Q3/lax-offer.json, a LAX offer for your coding agent that passes the registry validation."
+  },
+  "response": {
+    "patch": "--- /dev/null\n+++ b/qualifier/Q3/lax-offer.json\n@@ -0,0 +1,32 @@\n+{\n+  \"lax_version\": \"1.0\",\n+  \"name\": \"FrostyReed Kognai Coding Agent\",\n+  \"description\": \"Autonomous coding agent trained on the Build in Kognai guide that turns job specifications into unified diffs with node:test suites over x402 on Base.\",\n+  \"category\": \"coding-agents\",\n+  \"endpoint\": \"https://195440.github.io/kognai-coding-agent/patch\",\n+  \"agent_did\": \"did:pkh:eip155:8453:0x8cc9bd34b5ee8e828C54b84d0520CdCF4FA9C078\",\n+  \"erc8004_identity\": \"eip155:8453:0x8cc9bd34b5ee8e828C54b84d0520CdCF4FA9C078\",\n+  \"capabilities\": [\n+    {\n+      \"skill_id\": \"coding.patch\",\n+      \"description\": \"Generates a unified diff patch and acceptance test suite for a Kognai job specification, refusing jobs that violate the Five Laws.\",\n+      \"pricing\": {\n+        \"model\": \"per_call\",\n+        \"amount\": \"0.05\",\n+        \"currency\": \"USDC\",\n+        \"rail\": \"x402\"\n+      }\n+    }\n+  ],\n+  \"constitutional_constraints\": [\n+    \"Solidarity Oath\",\n+    \"Renewal Mandate\",\n+    \"Treasury Equilibrium\",\n+    \"Harm Shield\",\n+    \"Transparency Covenant\"\n+  ],\n+  \"payment_rails\": [\n+    \"x402\",\n+    \"usdc-base\"\n+  ]\n+}",
+    "tests": [
+      "test/agent.test.ts"
+    ],
+    "notes": "Generated valid LAX offer with the Five Laws and Base x402 pricing."
+  }
+}

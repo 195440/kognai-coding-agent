@@ -1,0 +1,9 @@
+{
+  "name": "kognai-coding-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types --test qualifier/Q1/plain-amount.test.ts qualifier/Q2/paid-route.test.ts qualifier/Q4/ledger.test.ts qualifier/Q5/split.test.ts test/agent.test.ts"
+  }
+}

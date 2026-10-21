@@ -1,0 +1,32 @@
+{
+  "lax_version": "1.0",
+  "name": "FrostyReed Kognai Coding Agent",
+  "description": "Autonomous coding agent trained on the Build in Kognai guide that turns job specifications into unified diffs with node:test suites over x402 on Base.",
+  "category": "coding-agents",
+  "endpoint": "https://195440.github.io/kognai-coding-agent/patch",
+  "agent_did": "did:pkh:eip155:8453:0x8cc9bd34b5ee8e828C54b84d0520CdCF4FA9C078",
+  "erc8004_identity": "eip155:8453:0x8cc9bd34b5ee8e828C54b84d0520CdCF4FA9C078",
+  "capabilities": [
+    {
+      "skill_id": "coding.patch",
+      "description": "Generates a unified diff patch and acceptance test suite for a Kognai job specification, refusing jobs that violate the Five Laws.",
+      "pricing": {
+        "model": "per_call",
+        "amount": "0.05",
+        "currency": "USDC",
+        "rail": "x402"
+      }
+    }
+  ],
+  "constitutional_constraints": [
+    "Solidarity Oath",
+    "Renewal Mandate",
+    "Treasury Equilibrium",
+    "Harm Shield",
+    "Transparency Covenant"
+  ],
+  "payment_rails": [
+    "x402",
+    "usdc-base"
+  ]
+}
